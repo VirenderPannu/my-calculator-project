@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: dist/my-angular-project
-    destination: /var/www/my-angular-project
+  - source: dist/my-calculator-project
+    destination: /var/www/my-calculator-project
 permissions:
-  - object: /var/www/my-angular-project
+  - object: /var/www/my-calculator-project
     pattern: '**'
     mode: '0755'
     owner: root
