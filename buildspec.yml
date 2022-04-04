@@ -15,6 +15,6 @@ phases:
       - echo This is the finally block execution!
 artifacts:
   files:
-    - 'dist/my-calculator-project/**/*'
+    - 'dist/my-angular-project/**/*'
     - appspec.yml
     - 'deploy-scripts/**/*'
